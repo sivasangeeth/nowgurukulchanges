@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>1</autolaunch_order>
+        <context>sp?id=index&amp;gtd_portal_title=Service Portal &amp;gtd_page_title=Home Page</context>
+        <description/>
+        <has_concl>true</has_concl>
+        <has_intro>true</has_intro>
+        <name>SP Portal Tour</name>
+        <options/>
+        <roles/>
+        <route_parameters/>
+        <sp_page display_value="index">46cc384147532100ba13a5554ee49009</sp_page>
+        <sp_portal display_value="Service Portal ">81b75d3147032100ba13a5554ee4902b</sp_portal>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-07 07:21:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e30b7b422fef31105ba5b8e72799b6a5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>SP Portal Tour</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_e30b7b422fef31105ba5b8e72799b6a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-07 08:00:39</sys_updated_on>
+        <tour_id>TOUR0000008</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+</record_update>

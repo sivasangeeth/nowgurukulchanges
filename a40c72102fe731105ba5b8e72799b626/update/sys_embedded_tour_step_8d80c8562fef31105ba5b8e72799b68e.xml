@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">0d80c8562fef31105ba5b8e72799b68c</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Check out your open incident here!]]></content>
+        <guide display_value="SP Portal Tour">e30b7b422fef31105ba5b8e72799b6a5</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/sp?id=index"}</options>
+        <order>7</order>
+        <placement>bottom</placement>
+        <skippable>true</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-07 07:44:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d80c8562fef31105ba5b8e72799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_8d80c8562fef31105ba5b8e72799b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-07 07:44:51</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">0d80c8562fef31105ba5b8e72799b68c</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>sp</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d80c8562fef31105ba5b8e72799b68e"/>
+</record_update>

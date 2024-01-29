@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role/>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-08 15:10:37</sys_created_on>
+        <sys_id>2820ba622f6fb1105ba5b8e72799b6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>44007ae62f6fb1105ba5b8e72799b688</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_embedded_help_role_2820ba622f6fb1105ba5b8e72799b6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-08 15:10:37</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

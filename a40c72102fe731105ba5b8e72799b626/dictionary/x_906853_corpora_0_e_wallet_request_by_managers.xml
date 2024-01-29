@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="ff934b982fe731105ba5b8e72799b638" extends="task" label="E-Wallet Request by Managers" max_length="40" name="x_906853_corpora_0_e_wallet_request_by_managers" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" function_definition="javascript:global.getNextObjNumberPadded();" label="E-Wallet Req Number" max_length="40" name="e_wallet_req_number" type="string"/>
+        <element label="Requested By (Manager)" max_length="32" name="requested_by" reference="sys_user" reference_floats="true" type="reference"/>
+        <element label="Requested For (Employee)" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element choice="3" default="Submitted" label="Request Status" max_length="40" name="request_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="Submitted"/>
+                <element inactive_on_update="false" label="Approval Requested" sequence="1" value="Approval Requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="Approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="Rejected"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="Completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="Cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Rejection Reason" max_length="1000" name="u_rejection_reason" type="string" use_dependent_field="true"/>
+    </element>
+</database>

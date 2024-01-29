@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="x_906853_corpora_0_m2m_E-Wallet Request by Managers_Employees" language="en" table="x_906853_corpora_0_m2m_x_906853_cor_x_906853_cor">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>x_906853_corpora_0_m2m_E-Wallet Request by Managers_Employees</label>
+            <language>en</language>
+            <name>x_906853_corpora_0_m2m_x_906853_cor_x_906853_cor</name>
+            <plural>x_906853_corpora_0_m2m_E-Wallet Request by Managers_Employees</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-18 05:32:26</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_906853_corpora_0_m2m_E-Wallet Request by Managers_Employees</sys_name>
+            <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+            <sys_update_name>sys_documentation_x_906853_corpora_0_m2m_x_906853_cor_x_906853_cor__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-18 05:32:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

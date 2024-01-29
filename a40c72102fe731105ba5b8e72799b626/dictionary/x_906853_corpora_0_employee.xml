@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c4ddb6902fe731105ba5b8e72799b67d" extends="sys_user" label="Employee" max_length="40" name="x_906853_corpora_0_employee" type="collection">
+        <element label="Awards/Appreciations" max_length="40" name="awards_appreciations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Career Level" max_length="40" name="career_level" type="string"/>
+        <element default="0" label="E-Wallet Balance" max_length="40" name="e_wallet_balance" read_only="true" type="integer"/>
+        <element label="E-Wallet Balance Validity" max_length="40" name="e_wallet_balance_validity" type="glide_date"/>
+        <element label="E-Wallet Budget" max_length="40" name="e_wallet_budget" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Senior Associate" label="Position Level" max_length="40" name="position_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Associate" sequence="0" value="Associate"/>
+                <element inactive_on_update="false" label="Senior Associate" sequence="1" value="Senior Associate"/>
+                <element inactive_on_update="false" label="Technical Lead" sequence="2" value="Technical Lead"/>
+                <element inactive_on_update="false" label="Manager" sequence="3" value="Manager"/>
+                <element inactive_on_update="false" label="Senior Manager" sequence="4" value="Senior Manager"/>
+                <element inactive_on_update="false" label="Director" sequence="5" value="Director"/>
+                <element inactive_on_update="false" label="Delivery Head" sequence="6" value="Delivery Head"/>
+                <element inactive_on_update="false" label="HR" sequence="7" value="HR"/>
+            </choice>
+        </element>
+        <element choice="3" label="Project/Account" max_length="40" name="project_account" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ABZ Consultancy" sequence="0" value="ABZ Consultancy"/>
+                <element inactive_on_update="false" label="PTL India Ltd." sequence="1" value="PTL India Ltd."/>
+                <element inactive_on_update="false" label="Zone IT Services" sequence="2" value="Zone IT Services"/>
+                <element inactive_on_update="false" label="YUC Motors" sequence="3" value="YUC Motors"/>
+                <element inactive_on_update="false" label="Qwerty Hospitals" sequence="4" value="Qwerty Hospitals"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Employee Number" max_length="40" name="u_employee_number" type="string"/>
+    </element>
+</database>
