@@ -16,7 +16,7 @@
         <column_label>E-Wallet Balance</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>0</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -57,8 +57,8 @@
         <sys_policy/>
         <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
         <sys_update_name>sys_dictionary_x_906853_corpora_0_employee_e_wallet_balance</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-01 16:31:55</sys_updated_on>
+        <sys_updated_by>Siva</sys_updated_by>
+        <sys_updated_on>2024-01-17 11:03:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

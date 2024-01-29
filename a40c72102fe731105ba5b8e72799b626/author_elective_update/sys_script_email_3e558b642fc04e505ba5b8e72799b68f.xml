@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="DELETE">
+        <name>fetch_variable</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+	gs.log('mtomcount enter');
+    var ritm = new GlideRecord('sc_req_item');
+    ritm.addQuery('sys_id', current.parent.toString());
+    ritm.query();
+	gs.log('mtomcount 1='+ritm.getRowCount());
+    while (ritm.next()) {
+        var mtom = new GlideRecord('sc_item_option_mtom');
+        mtom.addQuery('request_item', current.parent.toString());
+        mtom.orderBy('sc_item_option.order');
+        mtom.query();
+		gs.log('mtomcount 2='+mtom.getRowCount());
+        while (mtom.next()) {
+            template.print('<table>\n');
+            //var questions = mtom.sc_item_option.item_option_new;
+            var type = mtom.sc_item_option.item_option_new.type;
+            var value = mtom.sc_item_option.value;
+            if (type == 7 && value == false) {
+                //skip if chckbox is not checked
+            } else {
+                var summary_visible = mtom.sc_item_option.item_option_new.visible_summary;
+                // var question = GlideappAbstractChoiceListQuestion(questions);
+                // question.setValue(value);
+                if (summary_visible == true)
+                //  && question.getLabel() != '' && question.getLabel() != null && question.getDisplayValue() != '' && question.getDisplayValue() != null && question.getDisplayValue() != undefined)
+                {
+                    template.print('<div style=font-size:13px;><b>' + mtom.sc_item_option.item_option_new.question_text + ':</b></div><div style=font-size:13px;>' + mtom.sc_item_option.value.getDisplayValue() + ',/div>/n');
+                }
+            }
+
+        }
+        template.print('</table>');
+    }
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 08:08:19</sys_created_on>
+        <sys_id>3e558b642fc04e505ba5b8e72799b68f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>fetch_variable</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_script_email_3e558b642fc04e505ba5b8e72799b68f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 09:42:09</sys_updated_on>
+    </sys_script_email>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</application>
+        <file_path/>
+        <instance_id>197e94a6db7423c489535d00cf9619b7</instance_id>
+        <instance_name>dev71462</instance_name>
+        <name>sys_script_email_3e558b642fc04e505ba5b8e72799b68f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_email"&gt;&lt;sys_script_email action="INSERT_OR_UPDATE"&gt;&lt;name&gt;fetch_variable&lt;/name&gt;&lt;new_lines_to_html&gt;false&lt;/new_lines_to_html&gt;&lt;script&gt;&lt;![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+	gs.log('mtomcount enter');
+    var ritm = new GlideRecord('sc_req_item');
+    ritm.addQuery('sys_id', current.parent.toString());
+    ritm.query();
+	gs.log('mtomcount 1='+ritm.getRowCount());
+    while (ritm.next()) {
+        var mtom = new GlideRecord('sc_item_option_mtom');
+        mtom.addQuery('request_item', current.parent.toString());
+        mtom.orderBy('sc_item_option.order');
+        mtom.query();
+		gs.log('mtomcount 2='+mtom.getRowCount());
+        while (mtom.next()) {
+            template.print('&lt;table&gt;\n');
+            //var questions = mtom.sc_item_option.item_option_new;
+            var type = mtom.sc_item_option.item_option_new.type;
+            var value = mtom.sc_item_option.value;
+            if (type == 7 &amp;&amp; value == false) {
+                //skip if chckbox is not checked
+            } else {
+                var summary_visible = mtom.sc_item_option.item_option_new.visible_summary;
+                // var question = GlideappAbstractChoiceListQuestion(questions);
+                // question.setValue(value);
+                if (summary_visible == true)
+                //  &amp;&amp; question.getLabel() != '' &amp;&amp; question.getLabel() != null &amp;&amp; question.getDisplayValue() != '' &amp;&amp; question.getDisplayValue() != null &amp;&amp; question.getDisplayValue() != undefined)
+                {
+                    template.print('&lt;div style=font-size:13px;&gt;&lt;b&gt;' + mtom.sc_item_option.item_option_new.question_text + ':&lt;/b&gt;&lt;/div&gt;&lt;div style=font-size:13px;&gt;' + mtom.sc_item_option.value.getDisplayValue() + ',/div&gt;/n');
+                }
+            }
+
+        }
+        template.print('&lt;/table&gt;');
+    }
+
+})(current, template, email, email_action, event);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_email&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-27 08:08:19&lt;/sys_created_on&gt;&lt;sys_id&gt;3e558b642fc04e505ba5b8e72799b68f&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;fetch_variable&lt;/sys_name&gt;&lt;sys_package display_value="Corporate Gifting" source="x_906853_corpora_0"&gt;a40c72102fe731105ba5b8e72799b626&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Corporate Gifting"&gt;a40c72102fe731105ba5b8e72799b626&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_email_3e558b642fc04e505ba5b8e72799b68f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-27 09:42:09&lt;/sys_updated_on&gt;&lt;/sys_script_email&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1580440420</payload_hash>
+        <record_name>fetch_variable</record_name>
+        <reverted_from/>
+        <source>605742ac2f8c0e505ba5b8e72799b670</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-27 09:42:09</sys_created_on>
+        <sys_id>c62bdb642f444e505ba5b8e72799b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d4a4c45db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-27 09:42:09</sys_updated_on>
+        <type>Email Script</type>
+        <update_guid>8e2bdb64ae444e504cf5c140ff1b1b75</update_guid>
+        <update_guid_history>8e2bdb64ae444e504cf5c140ff1b1b75:-1580440420,261b97a45f444e50f895df3e849f07d4:1292336434,d7e81fe094444e50a8b671b00c6ee9bf:-217800387,10785ba018444e50c3d78ffdd722c786:-1582796780,58185ba09b444e506d209519f3a69e80:1877177155,8ce713a096444e503b2796d186b4cd5f:-400271186,db175b205d444e503fbc604e79b70b9b:-358963924,4a261b205a444e508915a123184e0b9e:-1611264564,a6329fe818044e5060788c90d06fd52a:1781020373,05e1d7e821044e50c26638d439154c5e:190465966,28415ba83d044e503ec602049bc1a808:1781020373,dfbd872467044e50599ecbf298299b34:342427862,a94d83a4a7044e50574611f4792b5e26:-520261394,15ac4764ab044e50664de0c475f1a2f7:-782363526,a3a5076c07c04e50a490d2ef657d7030:-561227619</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-28 05:38:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_email">sys_script_email</sys_db_object>
+        <sys_id>163088add1674b549f8ccd30268bfdc4</sys_id>
+        <sys_metadata>3e558b642fc04e505ba5b8e72799b68f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fetch_variable</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_scope_delete display_value="">0206c29eb11c483e805a92018e8740c4</sys_scope_delete>
+        <sys_update_name>sys_script_email_3e558b642fc04e505ba5b8e72799b68f</sys_update_name>
+        <sys_update_version display_value="sys_script_email_3e558b642fc04e505ba5b8e72799b68f">c62bdb642f444e505ba5b8e72799b676</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-28 05:38:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

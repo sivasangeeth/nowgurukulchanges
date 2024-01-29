@@ -2,11 +2,11 @@
     <element db_object_id="c4ddb6902fe731105ba5b8e72799b67d" extends="sys_user" label="Employee" max_length="40" name="x_906853_corpora_0_employee" type="collection">
         <element label="Awards/Appreciations" max_length="40" name="awards_appreciations" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Career Level" max_length="40" name="career_level" type="string"/>
-        <element label="E-Wallet Balance" max_length="40" name="e_wallet_balance" read_only="true" type="integer"/>
+        <element default="0" label="E-Wallet Balance" max_length="40" name="e_wallet_balance" read_only="true" type="integer"/>
         <element label="E-Wallet Balance Validity" max_length="40" name="e_wallet_balance_validity" type="glide_date"/>
         <element label="E-Wallet Budget" max_length="40" name="e_wallet_budget" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="3" label="Position Level" max_length="40" name="position_level" type="choice">
+        <element choice="3" default="Senior Associate" label="Position Level" max_length="40" name="position_level" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Associate" sequence="0" value="Associate"/>
                 <element inactive_on_update="false" label="Senior Associate" sequence="1" value="Senior Associate"/>

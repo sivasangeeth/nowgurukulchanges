@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_906853_corpora_0_e_wallet_request_by_managers</basic_apply_to>
+        <basic_query_from>x_906853_corpora_0_e_wallet_request_by_managers</basic_query_from>
+        <insert_callback/>
+        <name>Request Raised By Manager</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery('requested_by', parent.requested_by);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-16 13:10:34</sys_created_on>
+        <sys_id>ce0123452fff7d105ba5b8e72799b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Raised By Manager</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_relationship_ce0123452fff7d105ba5b8e72799b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-16 13:10:34</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce0123452fff7d105ba5b8e72799b675"/>
+</record_update>

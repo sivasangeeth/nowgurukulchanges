@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="DELETE">
+        <active>false</active>
+        <advanced>true</advanced>
+        <condition/>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>HR Agents</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+    // Add your code here
+
+    var isMember1 = gs.getUser().isMemberOf('Food Delivery Voucher Agents');
+    var isMember2 = gs.getUser().isMemberOf('Shopping/Sports-Wear Voucher Agents');
+    var isMember3 = gs.getUser().isMemberOf('E-Commerce Voucher Agents');
+    var roles = gs.getUser().hasRoles('x_906853_corpora_0.hr_agents');
+   
+    gs.addInfoMessage(gs.getMessage(isMember1 + ',' + isMember2 + ',' + isMember3 + ',' + roles + ' == ' + answer));
+
+    if (isMember1 || isMember2 || isMember3 || roles) {
+        answer = "corporate";
+        gs.addInfoMessage(gs.getMessage(isMember1 + ',' + isMember2 + ',' + isMember3 + ',' + ' == ' + answer));
+    }
+
+})(view, is_list);
+]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>Siva</sys_created_by>
+        <sys_created_on>2024-01-17 11:22:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>994090e92f37fd105ba5b8e72799b602</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>HR Agents</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sysrule_view_994090e92f37fd105ba5b8e72799b602</sys_update_name>
+        <sys_updated_by>Siva</sys_updated_by>
+        <sys_updated_on>2024-01-17 12:43:40</sys_updated_on>
+        <table>x_906853_corpora_0_employee</table>
+        <view/>
+    </sysrule_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</application>
+        <file_path/>
+        <instance_id>197e94a6db7423c489535d00cf9619b7</instance_id>
+        <instance_name>dev71462</instance_name>
+        <name>sysrule_view_994090e92f37fd105ba5b8e72799b602</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysrule_view"&gt;&lt;sysrule_view action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;device_type&gt;browser&lt;/device_type&gt;&lt;match_conditions&gt;ALL&lt;/match_conditions&gt;&lt;name&gt;HR Agents&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;overrides_user_preference&gt;true&lt;/overrides_user_preference&gt;&lt;script&gt;&lt;![CDATA[(function overrideView(view, is_list) {
+    // Add your code here
+
+    var isMember1 = gs.getUser().isMemberOf('Food Delivery Voucher Agents');
+    var isMember2 = gs.getUser().isMemberOf('Shopping/Sports-Wear Voucher Agents');
+    var isMember3 = gs.getUser().isMemberOf('E-Commerce Voucher Agents');
+    var roles = gs.getUser().hasRoles('x_906853_corpora_0.hr_agents');
+   
+    gs.addInfoMessage(gs.getMessage(isMember1 + ',' + isMember2 + ',' + isMember3 + ',' + roles + ' == ' + answer));
+
+    if (isMember1 || isMember2 || isMember3 || roles) {
+        answer = "corporate";
+        gs.addInfoMessage(gs.getMessage(isMember1 + ',' + isMember2 + ',' + isMember3 + ',' + ' == ' + answer));
+    }
+
+})(view, is_list);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysrule_view&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Siva&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-17 11:22:19&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;994090e92f37fd105ba5b8e72799b602&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;HR Agents&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Corporate Gifting" source="x_906853_corpora_0"&gt;a40c72102fe731105ba5b8e72799b626&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Corporate Gifting"&gt;a40c72102fe731105ba5b8e72799b626&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysrule_view_994090e92f37fd105ba5b8e72799b602&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Siva&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-17 12:43:40&lt;/sys_updated_on&gt;&lt;table&gt;x_906853_corpora_0_employee&lt;/table&gt;&lt;view/&gt;&lt;/sysrule_view&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-539414210</payload_hash>
+        <record_name>HR Agents</record_name>
+        <reverted_from/>
+        <source>f421709d2fa335105ba5b8e72799b65c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Siva</sys_created_by>
+        <sys_created_on>2024-01-17 12:43:40</sys_created_on>
+        <sys_id>a3c4e0a12fb7fd105ba5b8e72799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d1772df440000001</sys_recorded_at>
+        <sys_updated_by>Siva</sys_updated_by>
+        <sys_updated_on>2024-01-17 12:43:40</sys_updated_on>
+        <type>View Rule</type>
+        <update_guid>6bc4e0a184b7fd108289fce07fdc4738</update_guid>
+        <update_guid_history>6bc4e0a184b7fd108289fce07fdc4738:-539414210,5aa42461b5b7fd1050e81a3c34970d8f:-750119329,02c1a8ed6877fd10f23481320f37897d:382706075,fa21ac6d4a77fd10ff93552132641578:1132847053,01c02c6d8777fd1075b9ae5d7fb0be63:-1385359664,28202c6dba77fd1014492141910aec5d:2121492545,23afd8e9f477fd102efbdf1630e5fa81:1902836241,293ed4e50577fd106a82e4ebf437866b:1877593380,494d94e5c277fd10cc89e7e8ca170752:966628876,d9db10291077fd10dcdfb0d9642e20d0:-474587864,ffd9dc65eb77fd1039ace7bc5ca1ce44:1239865584,fa9598617b77fd10794fdf2be3359376:-1190479678,4d055c219477fd1000b78f01e1bae350:458580378,c83458edfa37fd10cc98f104595fd2a8:415774099,0014d4ed9e37fd10ad4beccac66b5c01:1370434580,8642506d7937fd10ed03317ecf08f70b:415774099,c432506dfe37fd1047bfa2443458d45d:1521387093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 04:58:15</sys_created_on>
+        <sys_db_object display_value="" name="sysrule_view">sysrule_view</sys_db_object>
+        <sys_id>ec80475a0c6345f89537aaf0092ba904</sys_id>
+        <sys_metadata>994090e92f37fd105ba5b8e72799b602</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Agents</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_parent display_value="Employee">c4ddb6902fe731105ba5b8e72799b67d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_scope_delete display_value="">0206c29eb11c483e805a92018e8740c4</sys_scope_delete>
+        <sys_update_name>sysrule_view_994090e92f37fd105ba5b8e72799b602</sys_update_name>
+        <sys_update_version display_value="sysrule_view_994090e92f37fd105ba5b8e72799b602">a3c4e0a12fb7fd105ba5b8e72799b639</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 04:58:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>e_wallet_balance</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Balance validatity based on balance upda</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    // Get the Current date
+    var currentDate = new Date();
+
+    // Add days to the current date
+    var numberOfDays = 90; // Change this value to the number of days you want to add
+    currentDate.setDate(currentDate.getDate() + numberOfDays);
+
+    // Format the date as 'yyyy-MM-dd' . 
+	// toISOString() return the datetime in this format 'yyyy-MM-ddTHH:mm:ss.sssZ'
+	//.split('T')[0] this is used to split the date portion alone
+    var formattedDate = currentDate.toISOString().split('T')[0];
+
+    // Set the new value in the field
+    g_form.setValue('e_wallet_balance_validity', formattedDate);
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 08:19:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>75942b8f2fe375105ba5b8e72799b640</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Balance validatity based on balance upda</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_script_client_75942b8f2fe375105ba5b8e72799b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 14:05:49</sys_updated_on>
+        <table>x_906853_corpora_0_employee</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

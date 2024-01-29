@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_906853_corpora_0_employee">position_levelINAssociate,Senior Associate^EQ<item display_value="Associate,Senior Associate" endquery="false" field="position_level" goto="false" newquery="false" operator="IN" or="false" value="Associate,Senior Associate"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description> ‘E-Wallet Budget’ field on Employee Table should only be hidden for Employees whose Position Level is Associate or Senior Associate.</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>Siva</sys_created_by>
+        <sys_created_on>2024-01-17 11:06:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>547e4c292f37fd105ba5b8e72799b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> ‘E-Wallet Budget’ field on Employee Table should only be hidden for Employees whose Position Level is Associate or Senior Associate.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_ui_policy_547e4c292f37fd105ba5b8e72799b699</sys_update_name>
+        <sys_updated_by>Siva</sys_updated_by>
+        <sys_updated_on>2024-01-17 11:06:39</sys_updated_on>
+        <table>x_906853_corpora_0_employee</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
