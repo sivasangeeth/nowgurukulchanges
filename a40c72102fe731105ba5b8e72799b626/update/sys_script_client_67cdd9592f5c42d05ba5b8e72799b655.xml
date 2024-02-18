@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>manager</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Manager Email and phone setting</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        var manager = g_form.getReference('manager', callback);
+    }
+    var manager = g_form.getReference('manager', callback);
+    //Type appropriate comment here, and begin script below
+
+}
+
+function callback(manager) {
+	// alert('enter');
+var email=manager.email;
+var phone=manager.mobile_phone;
+// alert(email+phone);
+g_form.setValue('u_manager_email',email);
+g_form.setValue('u_manager_mobile_phone',phone);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 18:54:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67cdd9592f5c42d05ba5b8e72799b655</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Manager Email and phone setting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_script_client_67cdd9592f5c42d05ba5b8e72799b655</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-11 07:43:37</sys_updated_on>
+        <table>x_906853_corpora_0_employee</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -25,7 +25,7 @@
 	// toISOString() return the datetime in this format 'yyyy-MM-ddTHH:mm:ss.sssZ'
 	//.split('T')[0] this is used to split the date portion alone
     var formattedDate = currentDate.toISOString().split('T')[0];
-
+ alert(formattedDate);
     // Set the new value in the field
     g_form.setValue('e_wallet_balance_validity', formattedDate);
 }
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>75942b8f2fe375105ba5b8e72799b640</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Balance validatity based on balance upda</sys_name>
         <sys_overrides/>
         <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
         <sys_update_name>sys_script_client_75942b8f2fe375105ba5b8e72799b640</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-19 14:05:49</sys_updated_on>
+        <sys_updated_on>2024-02-12 13:24:43</sys_updated_on>
         <table>x_906853_corpora_0_employee</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -41,7 +41,7 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>u_type_of_award_appreciation</name>
+        <name>awards</name>
         <order>120</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-08 12:49:08</sys_created_on>
         <sys_id>8ffec2222febb1105ba5b8e72799b6cc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Type of Award/Appreciation</sys_name>
         <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
         <sys_policy/>
         <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
         <sys_update_name>item_option_new_8ffec2222febb1105ba5b8e72799b6cc</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 12:49:08</sys_updated_on>
+        <sys_updated_by>Siva</sys_updated_by>
+        <sys_updated_on>2024-02-11 16:10:10</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

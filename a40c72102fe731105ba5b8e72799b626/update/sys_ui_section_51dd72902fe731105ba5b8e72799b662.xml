@@ -4,13 +4,13 @@
             <element>u_employee_number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>68381fd02f6b31105ba5b8e72799b6d2</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>23a3f9152f5002105ba5b8e72799b648</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>user_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>ec381fd02f6b31105ba5b8e72799b6d2</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>a3a3f9152f5002105ba5b8e72799b648</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>first_name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>60381fd02f6b31105ba5b8e72799b6d3</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>27a3f9152f5002105ba5b8e72799b648</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>last_name</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>e0381fd02f6b31105ba5b8e72799b6d3</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>a7a3f9152f5002105ba5b8e72799b648</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>name</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>64381fd02f6b31105ba5b8e72799b6d3</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>2ba3f9152f5002105ba5b8e72799b648</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>position_level</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>e4381fd02f6b31105ba5b8e72799b6d3</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>aba3f9152f5002105ba5b8e72799b648</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>manager</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>68381fd02f6b31105ba5b8e72799b6d3</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>2fa3f9152f5002105ba5b8e72799b648</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>e8381fd02f6b31105ba5b8e72799b6d3</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>afa3f9152f5002105ba5b8e72799b648</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>email</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>6c381fd02f6b31105ba5b8e72799b6d3</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>23a3f9152f5002105ba5b8e72799b649</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>mobile_phone</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>ec381fd02f6b31105ba5b8e72799b6d3</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>a3a3f9152f5002105ba5b8e72799b649</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>career_level</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>60381fd02f6b31105ba5b8e72799b6d4</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>27a3f9152f5002105ba5b8e72799b649</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>project_account</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>e0381fd02f6b31105ba5b8e72799b6d4</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>a7a3f9152f5002105ba5b8e72799b649</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>active</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>64381fd02f6b31105ba5b8e72799b6d4</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>2ba3f9152f5002105ba5b8e72799b649</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,41 @@
             <element>photo</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-01 18:19:20</sys_created_on>
-            <sys_id>e4381fd02f6b31105ba5b8e72799b6d4</sys_id>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>aba3f9152f5002105ba5b8e72799b649</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-01 18:19:20</sys_updated_on>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manager_email</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>2fa3f9152f5002105ba5b8e72799b649</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manager_mobile_phone</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-10 20:21:13</sys_created_on>
+            <sys_id>afa3f9152f5002105ba5b8e72799b649</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee" display_value="Employee" name="x_906853_corpora_0_employee" sys_domain="global" view="Default view">51dd72902fe731105ba5b8e72799b662</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-10 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

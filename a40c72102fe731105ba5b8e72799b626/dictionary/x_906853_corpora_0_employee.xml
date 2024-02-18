@@ -8,14 +8,14 @@
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" default="Senior Associate" label="Position Level" max_length="40" name="position_level" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Associate" sequence="0" value="Associate"/>
-                <element inactive_on_update="false" label="Senior Associate" sequence="1" value="Senior Associate"/>
-                <element inactive_on_update="false" label="Technical Lead" sequence="2" value="Technical Lead"/>
-                <element inactive_on_update="false" label="Manager" sequence="3" value="Manager"/>
-                <element inactive_on_update="false" label="Senior Manager" sequence="4" value="Senior Manager"/>
-                <element inactive_on_update="false" label="Director" sequence="5" value="Director"/>
-                <element inactive_on_update="false" label="Delivery Head" sequence="6" value="Delivery Head"/>
-                <element inactive_on_update="false" label="HR" sequence="7" value="HR"/>
+                <element inactive_on_update="false" label="Associate" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="Senior Associate" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Technical Lead" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Manager" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Senior Manager" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="HR" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Director" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Delivery Head" sequence="7" value="7"/>
             </choice>
         </element>
         <element choice="3" label="Project/Account" max_length="40" name="project_account" type="choice">

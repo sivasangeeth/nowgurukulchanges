@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="manager_mail" table="x_906853_corpora_0_employee">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Manager Email</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>javascript:var gr=new GlideRecord('sys_user');&#13;
+if(gr.get(gs.getUserID())&#13;
+gr.email;</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>manager_mail</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_906853_corpora_0_employee</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 18:53:45</sys_created_on>
+        <sys_id>3aaf5dd92f5c42d05ba5b8e72799b661</sys_id>
+        <sys_name>Manager Email</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_dictionary_x_906853_corpora_0_employee_manager_mail</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 19:43:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</application>
+        <file_path/>
+        <instance_id>197e94a6db7423c489535d00cf9619b7</instance_id>
+        <instance_name>dev71462</instance_name>
+        <name>sys_dictionary_x_906853_corpora_0_employee_manager_mail</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="manager_mail" table="x_906853_corpora_0_employee"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice/><choice_field/><choice_table/><column_label>Manager Email</column_label><comments/><create_roles/><default_value>javascript:var gr=new GlideRecord('sys_user');&#13;
+if(gr.get(gs.getUserID())&#13;
+gr.email;</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>manager_mail</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_906853_corpora_0_employee</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-10 18:53:45</sys_created_on><sys_id>3aaf5dd92f5c42d05ba5b8e72799b661</sys_id><sys_name>Manager Email</sys_name><sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package><sys_policy/><sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope><sys_update_name>sys_dictionary_x_906853_corpora_0_employee_manager_mail</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-10 19:43:08</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>548782935</payload_hash>
+        <record_name>Employee.Manager Email</record_name>
+        <reverted_from/>
+        <source>f421709d2fa335105ba5b8e72799b65c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 19:43:08</sys_created_on>
+        <sys_id>35faed192f1002105ba5b8e72799b620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d948b85c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 19:43:08</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>79faed195110021014fb150143ec1e1f</update_guid>
+        <update_guid_history>79faed195110021014fb150143ec1e1f:548782935,04aa6519ae10021082808328cb9844f3:858551501,7d286155291002108235a2e9912002ad:-158621893,faaf5dd9e95c42d08f4db3b007fb3783:-287230192</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 19:54:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>81630d2e7e5b478ab71dcf07a62c4541</sys_id>
+        <sys_metadata>3aaf5dd92f5c42d05ba5b8e72799b661</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Manager Email</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_parent display_value="Employee">c4ddb6902fe731105ba5b8e72799b67d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_scope_delete display_value="">0206c29eb11c483e805a92018e8740c4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_906853_corpora_0_employee_manager_mail</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_906853_corpora_0_employee_manager_mail">35faed192f1002105ba5b8e72799b620</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 19:54:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

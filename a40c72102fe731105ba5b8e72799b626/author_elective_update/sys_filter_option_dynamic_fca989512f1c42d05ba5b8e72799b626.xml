@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="DELETE">
+        <active>true</active>
+        <available_for_default>false</available_for_default>
+        <available_for_filter>false</available_for_filter>
+        <available_for_ref_qual>true</available_for_ref_qual>
+        <field_type/>
+        <label>Mail</label>
+        <order/>
+        <roles/>
+        <script>new ManagerDetail().mail(current.variables.manager);</script>
+        <script_reference_id/>
+        <script_reference_table/>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 17:18:53</sys_created_on>
+        <sys_id>fca989512f1c42d05ba5b8e72799b626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mail</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_fca989512f1c42d05ba5b8e72799b626</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 17:18:53</sys_updated_on>
+        <table/>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</application>
+        <file_path/>
+        <instance_id>197e94a6db7423c489535d00cf9619b7</instance_id>
+        <instance_name>dev71462</instance_name>
+        <name>sys_filter_option_dynamic_fca989512f1c42d05ba5b8e72799b626</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic"><sys_filter_option_dynamic action="INSERT_OR_UPDATE"><active>true</active><available_for_default>false</available_for_default><available_for_filter>false</available_for_filter><available_for_ref_qual>true</available_for_ref_qual><field_type/><label>Mail</label><order/><roles/><script>new ManagerDetail().mail(current.variables.manager);</script><script_reference_id/><script_reference_table/><sys_class_name>sys_filter_option_dynamic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-10 17:18:53</sys_created_on><sys_id>fca989512f1c42d05ba5b8e72799b626</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mail</sys_name><sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package><sys_policy/><sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope><sys_update_name>sys_filter_option_dynamic_fca989512f1c42d05ba5b8e72799b626</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-10 17:18:53</sys_updated_on><table/><table_containing_filter/></sys_filter_option_dynamic></record_update>]]></payload>
+        <payload_hash>-1637865566</payload_hash>
+        <record_name>Mail</record_name>
+        <reverted_from/>
+        <source>f421709d2fa335105ba5b8e72799b65c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 17:18:53</sys_created_on>
+        <sys_id>5df909912f1c42d05ba5b8e72799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d940778090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 17:18:53</sys_updated_on>
+        <type>Dynamic Filter Options</type>
+        <update_guid>41f90991ee1c42d0d14388a7461cce22</update_guid>
+        <update_guid_history>41f90991ee1c42d0d14388a7461cce22:-1637865566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 17:19:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_filter_option_dynamic">sys_filter_option_dynamic</sys_db_object>
+        <sys_id>947fcfedc85f4e82b3ed7813cce2cea4</sys_id>
+        <sys_metadata>fca989512f1c42d05ba5b8e72799b626</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mail</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_scope_delete display_value="">0206c29eb11c483e805a92018e8740c4</sys_scope_delete>
+        <sys_update_name>sys_filter_option_dynamic_fca989512f1c42d05ba5b8e72799b626</sys_update_name>
+        <sys_update_version display_value="sys_filter_option_dynamic_fca989512f1c42d05ba5b8e72799b626">5df909912f1c42d05ba5b8e72799b622</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 17:19:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

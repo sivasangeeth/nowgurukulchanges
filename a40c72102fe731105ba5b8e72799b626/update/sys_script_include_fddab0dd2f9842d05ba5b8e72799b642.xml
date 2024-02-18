@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_906853_corpora_0.ManagerDetail</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>ManagerDetail</name>
+        <script><![CDATA[var ManagerDetail = Class.create();
+ManagerDetail.prototype = {
+    initialize: function() {},
+    mail: function(user) {
+		gs.log('mail - entr');
+		var id=user;
+        var gr = new GlideRecord('sys_user');
+        gr.addQuery('sys_id', id);
+        gr.query();
+        var mails = 'No value';
+        if (gr.next()) {
+            mails = gr.email;
+        }
+		gs.log('mail - '+mails);
+        return mails;
+
+    },
+
+    phone: function(user) {
+		var id=user;
+        var gr = new GlideRecord('sys_user');
+        gr.addQuery('sys_id', id);
+        gr.query();
+        var phones = '';
+        if (gr.next()) {
+            phones = gr.mobile_phone;
+        }
+        return phones;
+
+    },
+    type: 'ManagerDetail'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-10 16:12:51</sys_created_on>
+        <sys_id>fddab0dd2f9842d05ba5b8e72799b642</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ManagerDetail</sys_name>
+        <sys_package display_value="Corporate Gifting" source="x_906853_corpora_0">a40c72102fe731105ba5b8e72799b626</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Corporate Gifting">a40c72102fe731105ba5b8e72799b626</sys_scope>
+        <sys_update_name>sys_script_include_fddab0dd2f9842d05ba5b8e72799b642</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-10 17:10:23</sys_updated_on>
+    </sys_script_include>
+</record_update>
