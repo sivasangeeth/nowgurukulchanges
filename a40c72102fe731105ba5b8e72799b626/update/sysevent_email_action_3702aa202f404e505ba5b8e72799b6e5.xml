@@ -7,8 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_906853_corpora_0_e_wallet_request_by_managers</collection>
-        <condition table="x_906853_corpora_0_e_wallet_request_by_managers">request_statusCHANGESTORejected^EQ<item display_value="Rejected" endquery="false" field="request_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Rejected"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_906853_corpora_0_e_wallet_request_by_managers">request_statusCHANGESTORejected^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
         <default_interval/>

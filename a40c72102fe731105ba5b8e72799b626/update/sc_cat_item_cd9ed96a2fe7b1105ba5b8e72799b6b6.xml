@@ -82,7 +82,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow display_value="E-Voucher Request">1bd72c812f8c8e505ba5b8e72799b601</workflow>
+        <workflow display_value="">1bd72c812f8c8e505ba5b8e72799b601</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=cd9ed96a2fe7b1105ba5b8e72799b6b6"/>
     <fx_price action="delete_multiple" query="id=cd9ed96a2fe7b1105ba5b8e72799b6b6"/>

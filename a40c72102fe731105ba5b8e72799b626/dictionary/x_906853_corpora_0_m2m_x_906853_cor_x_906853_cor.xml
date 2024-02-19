@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ecbb84b12ff731505ba5b8e72799b6ab" label="x_906853_corpora_0_m2m_E-Wallet Request by Managers_Employees" max_length="40" name="x_906853_corpora_0_m2m_x_906853_cor_x_906853_cor" type="collection">
-        <element attributes="encode_utf8=false" label="Employees" max_length="32" name="x_906853_corpora_0_employee" reference="x_906853_corpora_0_employee" type="reference"/>
-        <element attributes="encode_utf8=false" label="E-Wallet Request by Managers" max_length="32" name="x_906853_corpora_0_e_wallet_request_by_m" reference="x_906853_corpora_0_e_wallet_request_by_managers" type="reference"/>
-        <index name="index">
-            <element name="x_906853_corpora_0_employee"/>
-        </index>
-    </element>
-</database>

@@ -7,8 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_906853_corpora_0_e_wallet_request_by_managers</collection>
-        <condition table="x_906853_corpora_0_e_wallet_request_by_managers">assignment_groupVALCHANGES^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_906853_corpora_0_e_wallet_request_by_managers">assignment_groupVALCHANGES^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -52,7 +51,7 @@
 <p>This is system generated mail don't reply to it. If you have any queries mail to <span style="text-decoration: underline; color: #3598db;">sivasangeeth@gmail.com</span></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Email to HR Assignment Group for e-wallet</name>
+        <name>Email to HR Assignment Group for e-walle</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
